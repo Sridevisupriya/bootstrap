@@ -1,0 +1,23 @@
+
+    .small
+     {
+         font-size :10px;
+     }
+     .row2
+      {
+          color :rgb(26, 83, 26);
+      }  
+      .column
+      {
+          text-align: center;
+          background-color: rgb(126, 167, 122);
+      }
+      .p
+      {
+          font-size: 5px;
+      }
+      .row3
+      {
+          background-color: rgb(202, 221, 211);
+          color :rgb(6, 65, 14);
+      } 

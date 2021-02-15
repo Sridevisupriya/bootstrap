@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap 4 Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+ 
+</head>
+<body>
+    <nav class="navbar navbar-custom navbar-expand-sm bg-danger navbar-dark fixed-top">
+        <a class="navbar-brand" href="#"><h2>ShowTym</h2></a>
+        <span class="material-icons md-19">
+          movie
+          </span>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent15"
+        aria-controls="navbarSupportedContent15" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+    
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent15">
+        
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="search-movie-item.html"><h6>Home</h6></a>
+            </li>
+    
+        </ul>
+    </div>
+    </nav>
+   <div class="container" style="margin-top: 80px;">
+    <h1 class="color1">Fovourite Movies</h1>
+    <div class="text-right red">
+        <h4>TotalCount = 3</h4>
+    </div>
+    
+       <ul class="list-group">
+       
+           <li class="list-group-item">
+            <div class="row">
+                <div class="column col-sm-7">
+                 <img src="1.jpg">
+                 <p>Harry Potter and the Sorcerer's stone</p>
+                </div>
+                <div class="column col-sm-5">
+                    <span class="badge badge-success">4.8
+                        <i class="material-icons large">star</i>
+                    </span> 
+                    <p>The movie is quite faithful to the book—a smart move on the part of filmmakers.</p>  
+                    
+                    <button class="btn" onclick="location.href='movie-item-delete.html'">
+                        <span class="material-icons md-19" >
+                        delete_forever
+                        </span>
+                    </button>
+                </div>
+                
+               
+            </div>
+           </li>
+           <li class="list-group-item">
+            <div class="row">
+                <div class="column col-sm-7">
+                 <img src="nemo.jpg">
+                 <p>Finding Nemo</p>
+                </div>
+                <div class="column col-sm-5">
+                    <span class="badge badge-success">4.3
+                        <i class="material-icons large">star</i>
+                    </span> 
+                    <p>Good movie to watch with friends. </p>  
+                    <button class="btn" onclick="location.href='movie-item-delete.html'">
+                        <span class="material-icons md-19" >
+                            delete_forever
+                            </span> 
+                    </button>
+                       
+                </div>
+           </li>
+           <li class="list-group-item">
+            <div class="row">
+                <div class="column col-sm-7">
+                 <img src="in.jpg">
+                 <p>Inside Out</p>
+                </div>
+                <div class="column col-sm-5">
+                    <span class="badge badge-success">4.8
+                        <i class="material-icons large">star</i>
+                    </span>  
+                    <p>"Inside Out" is creative, clever, heartfelt, and beautifully animated.</p>  
+                    <button class="btn">
+                        <span class="material-icons md-19" onclick="location.href='movie-item-delete.html'">
+                            delete_forever
+                            </span>
+                    </button>
+                        
+                </div>
+            </div>
+           </li>
+       </ul>
+       
+      
+        
+    </div>
+   </div>
+   <nav class="navbar navbar-expand-sm bg-danger navbar-dark fixed-bottom">
+    <a class="navbar-brand" href="#">Copyright &copy; ShowTym</a>
+    </nav>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</body>
+</html>

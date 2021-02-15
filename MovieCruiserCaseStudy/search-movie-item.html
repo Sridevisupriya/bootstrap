@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap 4 Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-custom navbar-expand-sm bg-danger navbar-dark fixed-top">
+        <a class="navbar-brand" href="#"><h2>ShowTym</h2></a>
+        <span class="material-icons md-19">
+          movie
+          </span>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent15"
+        aria-controls="navbarSupportedContent15" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+    
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent15">
+        
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="movies-list-admin.html"><h6>Admin</h6></a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="movies-list-customer.html"><h6>Customer</h6></a>
+              </li>
+            
+    
+        </ul>
+    </div>
+    </nav>
+    <div class="container-fluid" style="margin-top: 75px;" >
+        <div class="movie-search">
+            <form action="#">
+                <div class="form-group">
+                    <br>
+                    <label id="search-label" for="search"><h3>Find Movies</h3></label>
+                    <div class="input-group mb-5">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text"><span class="material-icons align-middle">search</span></span>
+                        </div>
+                        <input type="text" class="form-control" placeholder="search for a Movie">
+                    </div>
+                </div>
+                <br><br>
+            </form>
+        </div>
+        <div class="row">
+            <div class="col-sm-10">
+                <h5>Up Next</h5>
+            </div>
+        </div>
+        <div class="row">
+            
+            <div class="col-sm-2">
+                <img src="d.jfif">
+                <span class="badge badge-success">4.5
+                    <i class="material-icons small">star</i>
+                </span> 
+            </div>
+            <div class="col-sm-2">
+                <img src="b.jfif">
+                <span class="badge badge-success">4.8
+                    <i class="material-icons small">star</i>
+                </span> 
+            </div>
+            <div class="col-sm-2">
+                <img src="p.jfif">
+                <span class="badge badge-warning">3.8
+                    <i class="material-icons small">star</i>
+                </span> 
+            </div>
+            <div class="col-sm-2">
+                <img src="a.jfif">
+                <span class="badge badge-success">4.7
+                    <i class="material-icons small">star</i>
+                </span> 
+            </div>
+            <div class="col-sm-2">
+                <img src="96.jfif">
+                <span class="badge badge-success">4.8
+                    <i class="material-icons small">star</i>
+                </span> 
+            </div>
+            <div class="col-sm-2">
+                <img src="bb.jfif">
+                <span class="badge badge-danger">2.5
+                    <i class="material-icons small">star</i>
+                </span> 
+            </div>
+        </div>
+    </div>
+    <br><br><br>
+    <nav class="navbar navbar-expand-sm bg-danger navbar-dark fixed-bottom">
+        <a class="navbar-brand" href="#">Copyright &copy; ShowTym</a>
+        </nav>
+    
+    
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</body>
+</html>

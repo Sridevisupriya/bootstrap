@@ -1,0 +1,47 @@
+.small
+{
+    font-size:10px;
+}
+
+.material-icons.md-10
+ { 
+     font-size: 10px;
+}
+.genre
+{
+    font-size: 12px;
+    color: rgb(6, 6, 51);
+}
+.material-icons.md-19
+ { 
+    color:black;
+}
+.red 
+{
+    color:rgb(194, 12, 12);
+}
+.row3
+{
+    background-color: rgb(202, 221, 211);
+    color :rgb(6, 65, 14);
+} 
+.movie-search{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcStGQ9a1TBejC1X0nojoJ87XflTfgo1aox8uOCboevIhP2zFdK-&usqp=CAU");
+    padding: 100px;
+    background-repeat: no-repeat;
+ 
+    background-size: cover;
+   
+}
+.form-group #search-label{
+    color: #fff;
+}
+.row4
+{
+    background-color: rgb(126, 167, 122);
+    color :rgb(26, 83, 26);
+}    
+.material-icons.md-25
+{
+    fill: red;
+}

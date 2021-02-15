@@ -1,0 +1,32 @@
+
+.high
+{
+    font-size: 20px;
+}
+.low
+{
+    font-size: 15px;
+    text-decoration: line-through;
+}
+.normal
+{
+    font-size: 15px;
+}
+.material-icons.md-17 { font-size: 15px ; color:rgb(3, 1, 10);}
+.material-icons.md-15 { font-size: 15px; }
+.material-icons.md-25 { font-size: 25px; color :rgb(68, 67, 71); }
+.material-icons
+{  
+    vertical-align: middle;
+    color: rgb(255, 255, 255);
+
+}
+.material-icons.md-18 
+{
+    color: rgb(179, 32, 32);
+    vertical-align: middle;
+}
+    .material-icons.md-25:hover {
+    
+    color: rgb(104, 10, 10);
+}
